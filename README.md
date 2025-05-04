@@ -4,6 +4,7 @@ A simple API for generating QR Codes and upload to AWS S3 from text provided in 
 ### Tecnologies
 - Java Spring Boot (Spring Web, Spring Dev Tools).
 - AWS S3.
+- Docker
 
 ### How to Run
 There's two way to run this project:
@@ -28,3 +29,4 @@ The structure project is based on Hexagonal Architecture, there is one implement
 ### Some questions that arise during the development process
 
 - What is a @Component?
+A component is an annotation in java that mark a class to be used in a service.
